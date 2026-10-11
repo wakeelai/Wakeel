@@ -2,6 +2,7 @@ node_modules/
 web/node_modules/
 web/dist/
 dist/
+*.tsbuildinfo
 .wrangler/
 .env
 .env.local
