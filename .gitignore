@@ -1,0 +1,9 @@
+node_modules/
+web/node_modules/
+web/dist/
+dist/
+.wrangler/
+.env
+.env.local
+web/.env.local
+*.log
