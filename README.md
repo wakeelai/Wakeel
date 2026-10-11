@@ -247,6 +247,7 @@ For frontend hot-reload during development, `npm run web:dev` (Vite) proxies `/a
 `npm run web:dev` in another.
 
 ### 4.10 Deploy
+The deploy script sets `APP_ENV=production`; local `wrangler dev` remains in development mode.
 ```bash
 npm run web:build
 npm run deploy
